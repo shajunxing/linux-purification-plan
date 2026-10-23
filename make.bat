@@ -1,5 +1,6 @@
 @echo off
 cd /d %~dp0
+if not exist bin md bin
 call :cc bin2c
 nasm src\boot.s -f bin -o bin\boot.bin
 bin\bin2c bin\boot.bin bin\boot.inc
