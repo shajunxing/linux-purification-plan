@@ -6,7 +6,7 @@ Project location is <https://github.com/shajunxing/linux-purification-plan> , co
 
 To be honest, I also dislike Windows since XP. I imagine if it can be added from [Validation OS](https://learn.microsoft.com/en-us/windows-hardware/manufacture/desktop/validation-os-overview) by necessary parts: network, security, direct x, get rid of everything corresponding .net dwm, and add classic shell like Win95, that's enough. But I also realized putting too much effort in is meaningless.
 
-# Direct Boot tools for VirtualBox
+## Direct Boot tools for VirtualBox
 
 So first, I need to set up handy environment. QEMU can directly boot kernel and in-memory filesystem, but I hate QEMU because it’s too messy. My another Debian laptop got completely messed up by QEMU, when I uninstalled it, it didn’t disable kernel modules, which made VirtualBox unable to start. Many people in open-source world are unable to do things right, they only love pretentious.
 
